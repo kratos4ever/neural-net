@@ -1,0 +1,52 @@
+1. Foundations of neural network and deep learning
+
+Video 1 - Introduction:
+	Course 1: How to build a deep neural network - recognize cats 
+	Course 2: Hyper parameter tuning, regularization and optimization. How to TUNE!!
+	Course 3: How to structure the machine learning project. The way to split data to train/test sets etc. specifically in deep learning. End to end - where to make the deep learning sytem become an end-end one
+	Course 4: CNNs for images? how to build
+	Course 5: sequence models and how to apply them for NLP, RNNs, LSTM (Long short term memory models), speech recognition, music generation etc.
+
+=========
+Video 2 - What is a neural network:
+	Neuron -> For a real estate price predictor based on the size of the house - can be fit as a linear regression - Line. The nueron contains the logic to vary from 0 to a line based function.
+	This nueron is called RELU, Rectified Linear Unit.
+
+	what if there are other featues, such as number of bedrooms, zip code, wealth of the neighborhood. Then build a neural network with hidden nodes, each of these take all the input features
+	and result to an ouput which is the price. So we will need to identify how many nodes should be present in the hidden layer. Neural nets are very good for supervised learning.
+
+=========
+Video 3 - Supervised learning with neural nets:
+	Supervised learning with NNs, it is crucial to select the right input and outputs to get the most accurate modeling done. For e.g., for online advertising, the input can be userID (which will
+	associate with the user's profile, history of clicking on ads etc) and the ad itself. The output can be the probability that the user will click on the ad. For self driving/autonomous cars, the input
+	can be an image with Radar info, the output can be positions of other cars around the self driving car.
+
+	NNs work for simpler problems, CNNs for image processing, RNNs for speech to text, Language translations etc., Hybrid NNs for self driving
+
+	Structured Data vs Unstructured data -> tables etc. are structured. speech, images, free text is unstructured data.
+
+=========
+Video 4 - Why is Deep learning taking off:
+	Traditional ML (SVM, logistic reg,etc) -> the performance tapers off with data. Even a large amount of data doesn't make the accuracy of the model go up any higher?
+	We have been accumulating a lot more data with better electronics, cameras, data processing hardware, software
+	Performance of NNs gets better with size of the NNs along with the data. If there is a lot of data, then NNs can be made bigger to give very high accuracy. Lot of hidden units/params/connections.
+	One of the most reliable ways of making a NN more accurate, is to make it bigger/deeper and also get a lot more data.
+
+	Number of training examples are notated by m. Less training data - traditional ML is similar in perf to NNs
+
+	Huge breakthough in NNs is switching from sigmoid to RELU function for the neuron - makes gradient descent run much faster and better. Gradient descent is the main deal??
+
+	Very large/deep NNs can take a lot of time to train, which is the main problem for just having a super large NN. Key is to make a computation go faster.
+
+=========
+Video 5 - About this course:
+	Week2: Forward and back propagation - implement the algo.
+	Week3: Single hidden layer NN
+	week4: Deep NN
+
+
+	
+WEEK 2:
+
+Video 1 - Logistic Regression
+	Used for binary classification problem.
